@@ -1,0 +1,5 @@
+import torch 
+x = torch.arange(0,12)
+x = x.reshape(3,4)
+a = torch.randn(32, 3, 64, 64)
+print(a)
