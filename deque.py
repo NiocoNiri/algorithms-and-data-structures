@@ -9,10 +9,10 @@ class deque:
             dtype=np.int32
         )
 
-        self.capacity = arraySize
-        self.size = 0
-        self.head = 0
-        self.tail = 0
+        self.capacity: int = arraySize
+        self.size: int = 0
+        self.head: int = 0
+        self.tail: int = 0
 
 
     def accessByIndex(self, index: np.int32) -> np.int32:
@@ -73,4 +73,3 @@ class deque:
         self.size -= 1
 
         return value
-#zxc zxczxc 
